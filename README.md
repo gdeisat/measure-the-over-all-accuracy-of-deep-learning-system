@@ -1,3 +1,5 @@
+#to measure the overall accuracy of a deep learning system, the number of iterations should be at least 30
+
 import numpy as np
 
 from keras.datasets import mnist
@@ -28,7 +30,7 @@ train_labels = to_categorical(train_labels)
 
 test_labels = to_categorical(test_labels)
 
-#to measure the overall accuracy of a deep learning system, the number of iterations should be at least 30
+
 
 NoOfTests = 30
 
